@@ -1,3 +1,27 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffaf6;
+    color: #000;
+}
+
+:root {
+    --primary: #d53369;
+    --secondary: #ff5858;
+    --main: #4b6cb7;
+}
+
+.bg-primary {
+    background: var(--primary)!important;
+}
+
+.bg-secondary {
+    background: var(--secondary)!important;
+}
+
+.bg-main {
+    background: var(--main)!important;
+}
